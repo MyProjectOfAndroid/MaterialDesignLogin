@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.felixzr.mdlogin.activity.LoginAct">
-    <com.felixzr.materialdesignlogin.View.MyVideoView
+    <com.felixzr.mdlogin.View.MyVideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.felixzr.materialdesignlogin.View.CatchScrollLayout
+    <com.felixzr.mdlogin.View.CatchScrollLayout
         android:id="@+id/catch_sroll_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,12 +18,12 @@
         android:orientation="vertical"
         android:clickable="true">
 
-        <com.felixzr.materialdesignlogin.View.SignUpContainer
+        <com.felixzr.mdlogin.View.SignUpContainer
             android:id="@+id/sign_up_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    </com.felixzr.materialdesignlogin.View.CatchScrollLayout>
+    </com.felixzr.mdlogin.View.CatchScrollLayout>
 
 
 

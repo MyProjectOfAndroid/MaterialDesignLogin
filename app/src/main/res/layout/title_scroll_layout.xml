@@ -34,7 +34,7 @@
 
     </LinearLayout>
 
-    <com.felixzr.materialdesignlogin.View.UnderlineDevider
+    <com.felixzr.mdlogin.View.UnderlineDevider
         android:id="@+id/underline_v"
         android:layout_width="match_parent"
         android:layout_height="2dp"
