@@ -79,7 +79,6 @@ public class LoginAct extends AppCompatActivity {
             window.setStatusBarColor(Color.TRANSPARENT);
             window.setNavigationBarColor(Color.TRANSPARENT);
         }
-       
     }
 
     private void playVideo(File videoFile) {
