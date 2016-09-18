@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.felixzr.mdlogin.activity.LoginAct">
+    <com.felixzr.materialdesignlogin.View.MyVideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.felixzr.materialdesignlogin.View.CatchScrollLayout
+        android:id="@+id/catch_sroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:clickable="true">
+
+        <com.felixzr.materialdesignlogin.View.SignUpContainer
+            android:id="@+id/sign_up_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.felixzr.materialdesignlogin.View.CatchScrollLayout>
+
+
+
+</RelativeLayout>
